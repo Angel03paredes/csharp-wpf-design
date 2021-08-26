@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="assets\img\add.png" />
+    <None Remove="assets\img\close.png" />
+    <None Remove="assets\img\home.png" />
+    <None Remove="assets\img\image-preview.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="assets\img\add.png" />
+    <Resource Include="assets\img\close.png" />
+    <Resource Include="assets\img\home.png" />
+    <Resource Include="assets\img\image-preview.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="models\" />
+  </ItemGroup>
+
+</Project>
